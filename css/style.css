@@ -79,16 +79,6 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
@@ -166,17 +156,21 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+
+/* -------- CONTENT SECTION -------- */
+.search-engine-optimization img, .social-media-marketing img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    float: right;
+    margin-left: 25px;
 }
 
-.social-media-marketing img {
-    max-height: 200px;
-}
+/* -------- BENEFITS SECTION -------- */
 
 
 
