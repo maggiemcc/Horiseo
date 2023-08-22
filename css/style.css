@@ -9,7 +9,16 @@ body {
     background-color: #d9dcd6;
 }
 
-/* -------- H1 - H6, P, & A Tags  -------- */
+
+/* -------- HEADER CONTENT  -------- */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -19,39 +28,6 @@ h1 .seo {
     color: #d9dcd6;
 }
 
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-footer h2 {
-    font-size: 20px;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-p {
-    font-size: 16px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-
-/* -------- HEADER  -------- */
-
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
 
 .nav {
     padding-top: 15px;
@@ -69,6 +45,11 @@ header {
     margin-left: 25px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 
 /* -------- HERO  -------- */
@@ -83,7 +64,8 @@ header {
 }
 
 
-/* -------- CONTENT SECTION -------- */
+/* ---------------- MAIN CONTENT ---------------- */
+/* ------ CONTENT SECTION ------ */
 .content {
     width: 75%;
     display: inline-block;
@@ -98,6 +80,21 @@ header {
     color: #ffffff;
 }
 
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+
 .content img {
     max-height: 200px;
     float: left;
@@ -111,7 +108,7 @@ header {
 
 
 
-/* -------- BENEFITS SECTION -------- */
+/* ------ BENEFITS SECTION ------ */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -135,10 +132,14 @@ header {
 
 
 
-/* -------- FOOTER  -------- */
+/* -------- FOOTER CONTENT  -------- */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
 }
