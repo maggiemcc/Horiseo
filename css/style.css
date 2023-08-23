@@ -24,7 +24,7 @@ h1 {
     font-size: 48px;
 }
 
-.seo {
+span {
     color: #d9dcd6;
 }
 
@@ -52,6 +52,7 @@ a {
 
 
 
+/* ---------------- MAIN CONTENT ---------------- */
 /* -------- HERO  -------- */
 
 .hero {
@@ -63,8 +64,6 @@ a {
     background-position: center;
 }
 
-
-/* ---------------- MAIN CONTENT ---------------- */
 /* ------ CONTENT SECTION ------ */
 .content {
     width: 75%;
